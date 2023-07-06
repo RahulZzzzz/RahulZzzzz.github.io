@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cineflix</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style_movie_page.css">
+    <link rel="shortcut icon" href="title3.png" type="image/x-icon">
+
+</head>
+<body>
+    
+    <div class="wrapper">
+        <!-- logo -->
+        <div class="logo">
+            <div class="container">
+                <p class="go-to-home">Film<span>Fusion.</span></p>
+            </div>
+        </div>
+        <!-- end of logo -->
+
+        <!-- search -->
+        <div class="search-container">
+            <div class="search-element">
+                <h3>Search Movies:</h3>
+                <input type="text" class="form-control" placeholder="Search Movie Title..." id="movie-search-box" onkeyup="findMovies()">
+
+                <div class="search-list" id="search-list">
+                    <!-- <div class="search-list-item">
+                        <div class="search-item-thumbnail">
+                            <img src="img/music-2.png" alt="">
+                        </div>
+                        <div class="search-item-info">
+                            <h3>Gaurdian of Galaxy</h3>
+                            <p>2017</p>
+
+                        </div>
+                    </div> -->
+                    
+                </div>
+
+            </div>
+        </div>
+        <!-- end of search container -->
+
+        <!-- result container -->
+        <div class="container">
+            <div class="result-container">
+                <div class="result-grid" id="result-grid">
+                    <!-- movie info -->
+                    <!-- <div class="movie-poster">
+                        <img src="img/music-2.png" alt="">
+                    </div>
+                    <div class="movie-info">
+                        <h3 class="movie-title">Guardians of Galaxy</h3>
+                        <ul class="movie-misc-info">
+                            <li class="year">year: 2017</li>
+                            <li class="rated">Rating: PG-13</li>
+                            <li class="released">Released:05 May 2017</li>
+                        </ul>
+                        <p class="genre"><b>Genre:</b>Action,Adventure, Comedy</p>
+                        <p class="writer"><b>Writer:</b>James Gunn, Don Abnett ,Sndy Lanning</p>
+                        <p class="actors"><b>Actors:</b>Chris Pratt, Zoe Saldan,Dave Bautista</p>
+                        <p class="plot"><b>Plot:</b>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore, deleniti inventore, culpa ipsam, vero incidunt quaerat sunt maiores necessitatibus sed amet quae nesciunt perferendis eligendi aspernatur! Voluptate at officiis non.</p>
+                        <p class="language"><b>Language:</b>English</p>
+                        <p class="awards"><b><i class="fas fa-award"></i></b> Nominated for 1 Oscar</p>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- end of result container -->
+    </div>
+
+
+    <script src="./script/script_movie_page.js"></script>
+</body>
+</html>
