@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collection</title>
+    <link rel="stylesheet" href="./css/boat.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Unbounded&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="nav">
+        <div class="logo">
+            <img src="./img/boat_logo_small.png" alt="">
+        </div>
+        <div class="sec">
+            <ul>
+                <li><a style="display: flex;" href="">
+                    <div style="display: block;" >Categories&nbsp;</div>
+                    <div style="display: block;" class="g_sign">
+                        >
+                    </div>
+                </a></li>
+                <li><a href="">Daily Deals</a></li>
+                <li><a href="">Gift With Boat</a></li>
+                <li><a style="display: flex;" href="">
+                    <div style="display: block;" >More&nbsp;</div>
+                    <div style="display: block;" class="g_sign">
+                        >
+                    </div>
+                </a></li>
+            </ul>
+        </div>
+        <div class="con">
+            <div class="search">
+                <input type="search">
+            </div>
+            <div class="cus">
+                <img src="./img/Profile-1.png" alt="">
+            </div>
+            <div class="tro">
+                <img src="./img/Cart.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="sliderbody">
+
+        <div class="slider">
+
+            <div class="slides">
+                
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+    
+    
+                <div class="slide first">
+                    <img src="img/img1.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/img2.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/img3.png" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/img4.png" alt="">
+                </div>
+    
+    
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+    
+            </div>
+    
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+    
+        </div>
+
+        <script type = "text/javascript">
+            var counter = 1;
+            setInterval(function(){
+                document.getElementById('radio'+counter).checked = true;
+                counter++;
+                if(counter>4){
+                    counter = 1;
+                }
+            },5000);
+        </script>
+
+    </div>
+
+    <div class="v_container">
+        <div class="heading">
+            <p>Explore</p> Bestsellers
+        </div>
+        <div class="videos">
+            <div class="video">
+                <video autoplay muted loop>
+                    <source src="img/Smartwatchvideo.mp4" type="video/mp4">
+                </video>
+                <div class="item_in_video">
+                    Smartwatches
+                </div>
+            </div>
+            <div class="video">
+                <video autoplay muted loop>
+                    <source src="img/Earbudvideo.mp4" type="video/mp4">
+                </video>
+                <div class="item_in_video">
+                    Wireless Earbuds
+                </div>
+            </div>
+            <div class="video">
+                <video autoplay muted loop>
+                    <source src="img/Neckbandvideo.mp4" type="video/mp4">
+                </video>
+                <div class="item_in_video">
+                    Neckbands
+                </div>
+            </div>
+            <div class="video">
+                <video autoplay muted loop>
+                    <source src="img/Headphone.mp4" type="video/mp4">
+                </video>
+                <div class="item_in_video">
+                    Headphones
+                </div>
+            </div>
+            <div class="video">
+                <video autoplay muted loop>
+                    <source src="img/WSpeaker.mp4" type="video/mp4">
+                </video>
+                <div class="item_in_video">
+                    Wireless Speaker
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section">
+
+        <div class="head">
+            Collections
+        </div>
+
+        <div class="products">
+            <div class="product">
+                <div class="image">
+                    <img src="img/Bluetooth_speaker.png" alt="">
+                </div>
+                <div class="name">
+                    Bluetooth speaker
+                </div>
+            </div>
+            <div class="product">
+                <div class="image">
+                    <img src="img/Cute earbuds.png" alt="">
+                </div>
+                <div class="name">
+                    Earbuds 
+                </div>
+            </div>
+            <div class="product">
+                <div class="image">
+                    <img src="img/Earbud.png" alt="">
+                </div>
+                <div class="name">
+                    TWS wireless Buds
+                </div>
+            </div>
+            <div class="product">
+                <div class="image">
+                    <img src="img/Home_theater.png" alt="">
+                </div>
+                <div class="name">
+                    Home Theater
+                </div>
+            </div>
+            <div class="product">
+                <div class="image">
+                    <img src="img/Immortal_gaming.png" alt="">
+                </div>
+                <div class="name">
+                    Headphones
+                </div>
+            </div>
+            <div class="product">
+                <div class="image">
+                    <img src="img/Limited_edition.png" alt="">
+                </div>
+                <div class="name">
+                    Limited edition
+                </div>
+            </div>
+            <div class="product">
+                <div class="image">
+                    <img src="img/Rocerz_wireless.png" alt="">
+                </div>
+                <div class="name">
+                    Rocerz Earphone
+                </div>
+            </div>
+            <div class="product">
+                <div class="image">
+                    <img src="img/Smartwatch.png" alt="">
+                </div>
+                <div class="name">
+                    Smartwatch
+                </div>
+            </div>
+            <div class="product">
+                <div class="image">
+                    <img src="img/Speaker.png" alt="">
+                </div>
+                <div class="name">
+                    Bluetooth speaker 
+                </div>
+            </div>
+            <div class="product">
+                <div class="image">
+                    <img src="img/Trimmer.png" alt="">
+                </div>
+                <div class="name">
+                    Trimmer
+                </div>
+            </div>
+            <div class="product">
+                <div class="image">
+                    <img src="img/Wired_earphone.png" alt="">
+                </div>
+                <div class="name">
+                    Wired Earphone
+                </div>
+            </div>
+        </div>
+
+        <div class="praise">
+            India's fastest growing audio & wearables brand. The most incredible range of wireless earphones, earbuds, headphones, smart watches, and home audio. From workouts to adventures, boAt will get you sailing!
+        </div>
+
+    </div>
+
+    <div class="mid">
+        
+        <div class="sub">
+            <div class="image">
+                <!-- image class is already written -->
+                <img src="img/boatLogo.png" alt="">
+            </div>
+            <div class="words">
+                Subscribe to email alerts!
+            </div>
+            <div class="inp">
+                <input type="email" placeholder="Enter Your Email Address">
+                <button class="button" type="submit">SUBSCRIBE</button>
+            </div>
+        </div>
+
+        <div class="shop">
+
+            <div class="tit">
+                SHOP
+            </div>
+            <div class="items">
+                <div class="left">
+                    <ul>
+                        <li><a href="">True Wireless Earbuds</a></li>
+                        <li><a href="">Wired Headphones</a></li>
+                        <li><a href="">Earn $10</a></li>
+                        <li><a href="">Home Audio</a></li>
+                        <li><a href="">Smart Watches</a></li>
+                        <li><a href="">Misfit</a></li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <ul>
+                        <li><a href="">Wireless Headphones</a></li>
+                        <li><a href="">Wireless Speakers</a></li>
+                        <li><a href="">Mobile Accessories</a></li>
+                        <li><a href="">TRebel</a></li>
+                        <li><a href="">Gift Card</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+
+        </div>
+
+        <div class="help">
+
+            <div class="tit">
+                HELP
+            </div>
+            <div class="items">
+                <ul>
+                    <li><a href="">Track your Order</a></li>
+                    <li><a href="">Warranty & Support</a></li>
+                    <li><a href="">Return policy</a></li>
+                    <li><a href="">Service centers</a></li>
+                    <li><a href="">Bulk orders</a></li>
+                    <li><a href="">FAQs</a></li>
+                    <li><a href="">Why Buy Direct</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="company">
+
+            <div class="tit">
+                COMPANY
+            </div>
+            <div class="items">
+                <ul><li><a href="">jafio</a></li>
+                <li><a href="">About boAt</a></li>
+                <li><a href="">News</a></li>
+                <li><a href="">Read Our Blog</a></li>
+                <li><a href="">Careers</a></li>
+                <li><a href="">Security</a></li>
+                <li><a href="">Invest Relations</a></li>
+                <li><a href="">Social Responsibility</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <div class="social">
+            <div class="line">
+                Let's get social
+            </div>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <div class="privacy">
+            `Privacy Policy&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#x2022;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Terms & Conditions`
+        </div>
+        <div class="copyright">
+            &copy;2023 Imagine Marketing Limited. All Rights Reserved.
+        </div>
+        <div class="address">
+            For queries contact us: Manager, Imagine Marketing Limited Unit no. 204 & 205, 2nd floor, D-wing & E-wing,
+            Corporate Avenue, Andheri Ghatkopar Link Road, Mumbai, Maharashtra-400093, India
+        </div>
+    </div>
+
+
+</body>
+</html>
